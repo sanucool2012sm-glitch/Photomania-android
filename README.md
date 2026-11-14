@@ -1,1 +1,5 @@
-# Photomania-android
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v4
+        with:
+          packages: 'platform-tools'
